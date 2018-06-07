@@ -1,2 +1,2 @@
 # checkers-AI
-Implementation of minMax AI algorithm for checkers
+Implementation of minMax AI algorithm with alpha-beta optimisation for checkers
