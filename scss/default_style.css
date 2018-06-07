@@ -1,0 +1,9 @@
+body{background-color:#f9f9f9}.main_container{display:flex;align-items:center;justify-content:center;position:fixed;top:0;left:0;right:0;bottom:0}.game_board{position:relative;height:400px;width:400px;display:inline-flex;flex-wrap:wrap;border:1px solid #c9c9c9;border-radius:5px;box-shadow:0 5px 10px rgba(0,0,0,0.12);overflow:hidden}.game_board .game_square:nth-child(16n+2),.game_board .game_square:nth-child(16n+4),.game_board .game_square:nth-child(16n+6),.game_board .game_square:nth-child(16n+8),.game_board .game_square:nth-child(16n+9),.game_board .game_square:nth-child(16n+11),.game_board .game_square:nth-child(16n+13),.game_board .game_square:nth-child(16n+15){background-color:#c9c9c9}.game_board .game_square{position:relative;flex-shrink:0;width:12.5%;height:12.5%}.game_square:hover{cursor:pointer;box-shadow:inset 0 0 10px rgba(232,72,85,0.7)}.game_square:after{content:"";z-index:2;position:absolute;display:flex;font-size:36px;justify-content:center;align-items:center;top:0;left:0;right:0;bottom:0}.game_square:before{content:"";z-index:1;font-family:FontAwesome;position:absolute;display:flex;font-size:36px;justify-content:center;align-items:center;top:0;left:0;right:0;bottom:0}.game_square.enemy:before{content:"\f111"}.game_square.super_enemy:before{content:"\f2be"}.game_square.ally:before{content:"\f10c"}.game_square.super_ally:before{content:"\f2bd"}
+/*# sourceMappingURL=default_style.css.map */
+.game_square.green {
+    background-color: forestgreen !important;
+}
+
+.fa.loading {
+    font-size: 100px;
+}
